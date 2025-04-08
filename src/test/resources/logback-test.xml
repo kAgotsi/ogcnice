@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <!-- Propriétés -->
+    <property name="LOG_PATTERN" value="%d{HH:mm:ss.SSS} %-5level %logger{36} - %msg%n" />
+    <property name="LOG_DIR" value="logs/test" />
+
+    <!-- Appender FICHIER : uniquement pour ton package -->
+    <appender name="APP-FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_DIR}/test.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_DIR}/test.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>5</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${LOG_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Appender CONSOLE : tu peux le garder ou commenter si tu ne veux pas de logs console -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>${LOG_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Root logger : on NE LOG RIEN pour les autres packages -->
+    <root level="OFF" />
+
+    <!-- Logger de ton package : DEBUG dans fichier + console -->
+    <logger name="com.matawanservices.ogcnice" level="DEBUG" additivity="false">
+        <appender-ref ref="APP-FILE" />
+        <appender-ref ref="CONSOLE" />
+    </logger>
+
+</configuration>

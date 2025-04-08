@@ -1,0 +1,768 @@
+2025-04-08 02:54:39.536 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-08 02:54:39.715 [main] INFO  c.m.ogcnice.OgcniceApplication - Starting OgcniceApplication using Java 17.0.12 with PID 26339 (/Users/commit/Downloads/ogcnice/target/classes started by commit in /Users/commit/Downloads/ogcnice)
+2025-04-08 02:54:39.717 [main] DEBUG c.m.ogcnice.OgcniceApplication - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-08 02:54:39.718 [main] INFO  c.m.ogcnice.OgcniceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-08 02:54:41.707 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-08 02:54:41.837 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 110 ms. Found 2 JPA repository interfaces.
+2025-04-08 02:54:42.630 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-08 02:54:42.642 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-08 02:54:42.644 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-08 02:54:42.644 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-08 02:54:42.700 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-08 02:54:42.701 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2884 ms
+2025-04-08 02:54:42.931 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-08 02:54:43.128 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-04-08 02:54:43.146 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-08 02:54:43.369 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-08 02:54:43.530 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-08 02:54:43.638 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-08 02:54:44.470 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-08 02:54:45.017 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-08 02:54:45.036 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-08 02:54:47.113 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-08 02:54:47.184 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-08 02:54:47.902 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-08 02:54:48.586 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-04-08 02:54:48.671 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-08 02:54:48.685 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-08 02:54:48.697 [main] INFO  c.m.ogcnice.OgcniceApplication - Started OgcniceApplication in 9.724 seconds (process running for 11.362)
+2025-04-08 03:03:44.997 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-08 03:03:45.252 [main] INFO  c.m.ogcnice.OgcniceApplication - Starting OgcniceApplication using Java 17.0.12 with PID 33963 (/Users/commit/Downloads/ogcnice/target/classes started by commit in /Users/commit/Downloads/ogcnice)
+2025-04-08 03:03:45.254 [main] DEBUG c.m.ogcnice.OgcniceApplication - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-08 03:03:45.260 [main] INFO  c.m.ogcnice.OgcniceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-08 03:03:45.887 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-08 03:03:45.892 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-08 03:03:45.934 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 42 ms
+2025-04-08 03:03:46.224 [http-nio-8080-exec-1] ERROR c.m.o.advices.GlobalExceptionHandler - Erreur inconnue : No static resource swagger-ui.
+2025-04-08 03:03:46.727 [http-nio-8080-exec-2] ERROR c.m.o.advices.GlobalExceptionHandler - Erreur inconnue : No static resource favicon.ico.
+2025-04-08 03:03:47.021 [http-nio-8080-exec-3] ERROR c.m.o.advices.GlobalExceptionHandler - Erreur inconnue : No static resource apple-touch-icon-precomposed.png.
+2025-04-08 03:03:47.031 [http-nio-8080-exec-4] ERROR c.m.o.advices.GlobalExceptionHandler - Erreur inconnue : No static resource apple-touch-icon.png.
+2025-04-08 03:03:48.306 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: java.lang.TypeNotPresentException: Type javax.servlet.http.HttpServletRequest not present
+2025-04-08 03:03:48.325 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-08 03:03:48.394 [main] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.TypeNotPresentException: Type javax.servlet.http.HttpServletRequest not present
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117)
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125)
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49)
+	at java.base/sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68)
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138)
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49)
+	at java.base/sun.reflect.generics.repository.ClassRepository.computeSuperInterfaces(ClassRepository.java:117)
+	at java.base/sun.reflect.generics.repository.ClassRepository.getSuperInterfaces(ClassRepository.java:95)
+	at java.base/java.lang.Class.getGenericInterfaces(Class.java:1211)
+	at org.springframework.core.ResolvableType.getInterfaces(ResolvableType.java:553)
+	at org.springframework.core.ResolvableType.as(ResolvableType.java:501)
+	at org.springframework.core.ResolvableType.forClass(ResolvableType.java:1157)
+	at org.springframework.plugin.core.config.PluginRegistriesBeanDefinitionRegistrar.getTargetType(PluginRegistriesBeanDefinitionRegistrar.java:101)
+	at org.springframework.plugin.core.config.PluginRegistriesBeanDefinitionRegistrar.registerBeanDefinitions(PluginRegistriesBeanDefinitionRegistrar.java:71)
+	at org.springframework.context.annotation.ImportBeanDefinitionRegistrar.registerBeanDefinitions(ImportBeanDefinitionRegistrar.java:86)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:397)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:396)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:149)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:121)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:430)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:791)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:609)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.matawanservices.ogcnice.OgcniceApplication.main(OgcniceApplication.java:10)
+Caused by: java.lang.ClassNotFoundException: javax.servlet.http.HttpServletRequest
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:114)
+	... 32 common frames omitted
+2025-04-08 03:03:51.370 [http-nio-8080-exec-5] ERROR c.m.o.advices.GlobalExceptionHandler - Erreur inconnue : No static resource swagger-ui.
+2025-04-08 03:04:11.565 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-08 03:04:11.642 [main] INFO  c.m.ogcnice.OgcniceApplication - Starting OgcniceApplication using Java 17.0.12 with PID 34496 (/Users/commit/Downloads/ogcnice/target/classes started by commit in /Users/commit/Downloads/ogcnice)
+2025-04-08 03:04:11.647 [main] DEBUG c.m.ogcnice.OgcniceApplication - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-08 03:04:11.648 [main] INFO  c.m.ogcnice.OgcniceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-08 03:04:12.281 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: java.lang.TypeNotPresentException: Type javax.servlet.http.HttpServletRequest not present
+2025-04-08 03:04:12.290 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-08 03:04:12.306 [main] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.TypeNotPresentException: Type javax.servlet.http.HttpServletRequest not present
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117)
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125)
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49)
+	at java.base/sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68)
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138)
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49)
+	at java.base/sun.reflect.generics.repository.ClassRepository.computeSuperInterfaces(ClassRepository.java:117)
+	at java.base/sun.reflect.generics.repository.ClassRepository.getSuperInterfaces(ClassRepository.java:95)
+	at java.base/java.lang.Class.getGenericInterfaces(Class.java:1211)
+	at org.springframework.core.ResolvableType.getInterfaces(ResolvableType.java:553)
+	at org.springframework.core.ResolvableType.as(ResolvableType.java:501)
+	at org.springframework.core.ResolvableType.forClass(ResolvableType.java:1157)
+	at org.springframework.plugin.core.config.PluginRegistriesBeanDefinitionRegistrar.getTargetType(PluginRegistriesBeanDefinitionRegistrar.java:101)
+	at org.springframework.plugin.core.config.PluginRegistriesBeanDefinitionRegistrar.registerBeanDefinitions(PluginRegistriesBeanDefinitionRegistrar.java:71)
+	at org.springframework.context.annotation.ImportBeanDefinitionRegistrar.registerBeanDefinitions(ImportBeanDefinitionRegistrar.java:86)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:397)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:396)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:149)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:121)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:430)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:791)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:609)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.matawanservices.ogcnice.OgcniceApplication.main(OgcniceApplication.java:10)
+Caused by: java.lang.ClassNotFoundException: javax.servlet.http.HttpServletRequest
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:114)
+	... 32 common frames omitted
+2025-04-08 03:07:37.957 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-08 03:07:38.087 [main] INFO  c.m.ogcnice.OgcniceApplication - Starting OgcniceApplication using Java 17.0.12 with PID 37423 (/Users/commit/Downloads/ogcnice/target/classes started by commit in /Users/commit/Downloads/ogcnice)
+2025-04-08 03:07:38.088 [main] DEBUG c.m.ogcnice.OgcniceApplication - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-08 03:07:38.089 [main] INFO  c.m.ogcnice.OgcniceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-08 03:07:38.969 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: java.lang.TypeNotPresentException: Type javax.servlet.http.HttpServletRequest not present
+2025-04-08 03:07:38.989 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-08 03:07:39.023 [main] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.TypeNotPresentException: Type javax.servlet.http.HttpServletRequest not present
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117)
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125)
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49)
+	at java.base/sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68)
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138)
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49)
+	at java.base/sun.reflect.generics.repository.ClassRepository.computeSuperInterfaces(ClassRepository.java:117)
+	at java.base/sun.reflect.generics.repository.ClassRepository.getSuperInterfaces(ClassRepository.java:95)
+	at java.base/java.lang.Class.getGenericInterfaces(Class.java:1211)
+	at org.springframework.core.ResolvableType.getInterfaces(ResolvableType.java:553)
+	at org.springframework.core.ResolvableType.as(ResolvableType.java:501)
+	at org.springframework.core.ResolvableType.forClass(ResolvableType.java:1157)
+	at org.springframework.plugin.core.config.PluginRegistriesBeanDefinitionRegistrar.getTargetType(PluginRegistriesBeanDefinitionRegistrar.java:101)
+	at org.springframework.plugin.core.config.PluginRegistriesBeanDefinitionRegistrar.registerBeanDefinitions(PluginRegistriesBeanDefinitionRegistrar.java:71)
+	at org.springframework.context.annotation.ImportBeanDefinitionRegistrar.registerBeanDefinitions(ImportBeanDefinitionRegistrar.java:86)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:397)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:396)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:149)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:121)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:430)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:791)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:609)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.matawanservices.ogcnice.OgcniceApplication.main(OgcniceApplication.java:12)
+Caused by: java.lang.ClassNotFoundException: javax.servlet.http.HttpServletRequest
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:114)
+	... 32 common frames omitted
+2025-04-08 03:09:18.979 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-08 03:09:19.109 [main] INFO  c.m.ogcnice.OgcniceApplication - Starting OgcniceApplication using Java 17.0.12 with PID 38929 (/Users/commit/Downloads/ogcnice/target/classes started by commit in /Users/commit/Downloads/ogcnice)
+2025-04-08 03:09:19.110 [main] DEBUG c.m.ogcnice.OgcniceApplication - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-08 03:09:19.111 [main] INFO  c.m.ogcnice.OgcniceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-08 03:09:19.885 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: java.lang.TypeNotPresentException: Type javax.servlet.http.HttpServletRequest not present
+2025-04-08 03:09:19.894 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-08 03:09:19.928 [main] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.TypeNotPresentException: Type javax.servlet.http.HttpServletRequest not present
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117)
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125)
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49)
+	at java.base/sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68)
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138)
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49)
+	at java.base/sun.reflect.generics.repository.ClassRepository.computeSuperInterfaces(ClassRepository.java:117)
+	at java.base/sun.reflect.generics.repository.ClassRepository.getSuperInterfaces(ClassRepository.java:95)
+	at java.base/java.lang.Class.getGenericInterfaces(Class.java:1211)
+	at org.springframework.core.ResolvableType.getInterfaces(ResolvableType.java:553)
+	at org.springframework.core.ResolvableType.as(ResolvableType.java:501)
+	at org.springframework.core.ResolvableType.forClass(ResolvableType.java:1157)
+	at org.springframework.plugin.core.config.PluginRegistriesBeanDefinitionRegistrar.getTargetType(PluginRegistriesBeanDefinitionRegistrar.java:101)
+	at org.springframework.plugin.core.config.PluginRegistriesBeanDefinitionRegistrar.registerBeanDefinitions(PluginRegistriesBeanDefinitionRegistrar.java:71)
+	at org.springframework.context.annotation.ImportBeanDefinitionRegistrar.registerBeanDefinitions(ImportBeanDefinitionRegistrar.java:86)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:397)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:396)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:149)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:121)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:430)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:791)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:609)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.matawanservices.ogcnice.OgcniceApplication.main(OgcniceApplication.java:12)
+Caused by: java.lang.ClassNotFoundException: javax.servlet.http.HttpServletRequest
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:114)
+	... 32 common frames omitted
+2025-04-08 03:11:18.032 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-08 03:11:18.164 [main] INFO  c.m.ogcnice.OgcniceApplication - Starting OgcniceApplication using Java 17.0.12 with PID 40613 (/Users/commit/Downloads/ogcnice/target/classes started by commit in /Users/commit/Downloads/ogcnice)
+2025-04-08 03:11:18.165 [main] DEBUG c.m.ogcnice.OgcniceApplication - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-08 03:11:18.166 [main] INFO  c.m.ogcnice.OgcniceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-08 03:11:19.099 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-08 03:11:19.171 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 54 ms. Found 2 JPA repository interfaces.
+2025-04-08 03:11:19.861 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-08 03:11:19.873 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-08 03:11:19.875 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-08 03:11:19.875 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-08 03:11:19.931 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-08 03:11:19.932 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1715 ms
+2025-04-08 03:11:20.138 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-08 03:11:20.314 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-04-08 03:11:20.315 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-08 03:11:20.485 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-08 03:11:20.608 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-08 03:11:20.654 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-08 03:11:21.255 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-08 03:11:21.486 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-08 03:11:21.504 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-08 03:11:22.833 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-08 03:11:22.883 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-08 03:11:23.395 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-08 03:11:23.845 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-04-08 03:11:23.922 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-08 03:11:23.934 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-04-08 03:11:23.936 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-08 03:11:23.951 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-08 03:11:23.953 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-08 03:11:23.971 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-08 03:11:24.005 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-04-08 03:12:40.832 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-08 03:12:40.965 [main] INFO  c.m.ogcnice.OgcniceApplication - Starting OgcniceApplication using Java 17.0.12 with PID 41859 (/Users/commit/Downloads/ogcnice/target/classes started by commit in /Users/commit/Downloads/ogcnice)
+2025-04-08 03:12:40.966 [main] DEBUG c.m.ogcnice.OgcniceApplication - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-08 03:12:40.967 [main] INFO  c.m.ogcnice.OgcniceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-08 03:12:41.932 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-08 03:12:42.006 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 55 ms. Found 2 JPA repository interfaces.
+2025-04-08 03:12:42.793 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-04-08 03:12:42.817 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-04-08 03:12:42.820 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-08 03:12:42.820 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-08 03:12:42.981 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-08 03:12:42.982 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1963 ms
+2025-04-08 03:12:43.211 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-08 03:12:43.401 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-04-08 03:12:43.403 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-08 03:12:43.541 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-08 03:12:43.674 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-08 03:12:43.758 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-08 03:12:44.473 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-08 03:12:44.641 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-08 03:12:44.665 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-08 03:12:46.044 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-08 03:12:46.096 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-08 03:12:46.618 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-08 03:12:46.989 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-04-08 03:12:47.057 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-04-08 03:12:47.075 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-04-08 03:12:47.085 [main] INFO  c.m.ogcnice.OgcniceApplication - Started OgcniceApplication in 6.687 seconds (process running for 7.082)
+2025-04-08 03:13:28.842 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-08 03:13:28.843 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-08 03:13:28.845 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-08 03:13:28.944 [http-nio-8081-exec-1] ERROR c.m.o.advices.GlobalExceptionHandler - Erreur inconnue : No static resource aapi/teams.
+2025-04-08 03:13:39.826 [http-nio-8081-exec-2] INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de récupération des équipes avec pagination et tri : page 0 et taille 20
+2025-04-08 03:13:40.337 [http-nio-8081-exec-2] INFO  c.m.ogcnice.services.TeamServiceImpl - Nombre d'équipes récupérées : 3
+2025-04-08 03:15:02.764 [http-nio-8080-exec-6] ERROR c.m.o.advices.GlobalExceptionHandler - Erreur inconnue : No static resource teams.
+2025-04-08 03:15:13.311 [http-nio-8080-exec-7] ERROR c.m.o.advices.GlobalExceptionHandler - Erreur inconnue : No static resource teams.
+2025-04-08 03:15:37.766 [http-nio-8081-exec-4] ERROR c.m.o.advices.GlobalExceptionHandler - Erreur inconnue : No static resource teams.
+2025-04-08 03:15:48.228 [http-nio-8081-exec-5] ERROR c.m.o.advices.GlobalExceptionHandler - Erreur inconnue : No static resource teams.
+2025-04-08 03:15:56.896 [http-nio-8081-exec-6] ERROR c.m.o.advices.GlobalExceptionHandler - Erreur inconnue : No static resource teams.
+2025-04-08 03:16:11.025 [http-nio-8081-exec-7] ERROR c.m.o.advices.GlobalExceptionHandler - Erreur inconnue : No static resource teams0.
+2025-04-08 03:16:37.811 [http-nio-8081-exec-8] INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de récupération des équipes avec pagination et tri : page 0 et taille 1
+2025-04-08 03:16:37.875 [http-nio-8081-exec-8] INFO  c.m.ogcnice.services.TeamServiceImpl - Nombre d'équipes récupérées : 3
+2025-04-08 03:17:07.719 [http-nio-8081-exec-10] INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de récupération des équipes avec pagination et tri : page 0 et taille 1
+2025-04-08 03:17:07.722 [http-nio-8081-exec-10] INFO  c.m.ogcnice.services.TeamServiceImpl - Nombre d'équipes récupérées : 3
+2025-04-08 03:17:22.536 [http-nio-8081-exec-2] INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de récupération des équipes avec pagination et tri : page 0 et taille 10
+2025-04-08 03:17:22.538 [http-nio-8081-exec-2] INFO  c.m.ogcnice.services.TeamServiceImpl - Nombre d'équipes récupérées : 3
+2025-04-08 03:17:32.398 [http-nio-8081-exec-4] INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de récupération des équipes avec pagination et tri : page 0 et taille 10
+2025-04-08 03:17:32.400 [http-nio-8081-exec-4] INFO  c.m.ogcnice.services.TeamServiceImpl - Nombre d'équipes récupérées : 3
+2025-04-08 03:17:48.038 [http-nio-8081-exec-6] INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de récupération des équipes avec pagination et tri : page 0 et taille 10
+2025-04-08 03:17:48.041 [http-nio-8081-exec-6] INFO  c.m.ogcnice.services.TeamServiceImpl - Nombre d'équipes récupérées : 3
+2025-04-08 03:19:10.604 [http-nio-8080-exec-8] ERROR c.m.o.advices.GlobalExceptionHandler - Erreur inconnue : JSON parse error: Illegal unquoted character ((CTRL-CHAR, code 10)): has to be escaped using backslash to be included in string value
+2025-04-08 03:20:13.568 [http-nio-8080-exec-9] ERROR c.m.o.advices.GlobalExceptionHandler - Erreur inconnue : JSON parse error: Illegal unquoted character ((CTRL-CHAR, code 10)): has to be escaped using backslash to be included in string value
+2025-04-08 03:20:55.964 [http-nio-8080-exec-10] ERROR c.m.o.advices.GlobalExceptionHandler - Erreur inconnue : JSON parse error: Illegal unquoted character ((CTRL-CHAR, code 10)): has to be escaped using backslash to be included in string value
+2025-04-08 03:22:00.166 [http-nio-8080-exec-1] INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=OGC Montpellier, acronym=OGCMT, budget=580000.0, players=[])
+2025-04-08 03:22:00.834 [http-nio-8080-exec-1] INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de création de l'équipe : OGC Montpellier
+2025-04-08 03:22:01.059 [http-nio-8080-exec-1] INFO  c.m.ogcnice.services.TeamServiceImpl - L'équipe 'OGC Montpellier' a été enregistrée avec succès.
+2025-04-08 03:22:32.608 [http-nio-8081-exec-8] INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de récupération des équipes avec pagination et tri : page 0 et taille 50
+2025-04-08 03:22:32.610 [http-nio-8081-exec-8] INFO  c.m.ogcnice.services.TeamServiceImpl - Nombre d'équipes récupérées : 3
+2025-04-08 03:23:04.031 [http-nio-8081-exec-10] INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de récupération des équipes avec pagination et tri : page 2 et taille 50
+2025-04-08 03:23:04.034 [http-nio-8081-exec-10] INFO  c.m.ogcnice.services.TeamServiceImpl - Nombre d'équipes récupérées : 3
+2025-04-08 03:23:09.232 [http-nio-8081-exec-2] INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de récupération des équipes avec pagination et tri : page 1 et taille 50
+2025-04-08 03:23:09.234 [http-nio-8081-exec-2] INFO  c.m.ogcnice.services.TeamServiceImpl - Nombre d'équipes récupérées : 3
+2025-04-08 03:23:13.087 [http-nio-8081-exec-4] INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de récupération des équipes avec pagination et tri : page 0 et taille 50
+2025-04-08 03:23:13.090 [http-nio-8081-exec-4] INFO  c.m.ogcnice.services.TeamServiceImpl - Nombre d'équipes récupérées : 3
+2025-04-08 03:24:05.520 [http-nio-8080-exec-3] ERROR c.m.o.advices.GlobalExceptionHandler - Erreur inconnue : JSON parse error: Illegal unquoted character ((CTRL-CHAR, code 10)): has to be escaped using backslash to be included in string value
+2025-04-08 03:24:51.164 [http-nio-8080-exec-4] ERROR c.m.o.advices.GlobalExceptionHandler - Erreur inconnue : JSON parse error: Illegal unquoted character ((CTRL-CHAR, code 10)): has to be escaped using backslash to be included in string value
+2025-04-08 03:25:06.186 [http-nio-8080-exec-5] INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=OGC Montpellier, acronym=OGCMT, budget=580000.0, players=[])
+2025-04-08 03:25:06.215 [http-nio-8080-exec-5] ERROR c.m.ogcnice.services.TeamServiceImpl - L'équipe avec le nom OGC Montpellier existe déjà
+2025-04-08 03:25:06.224 [http-nio-8080-exec-5] ERROR c.m.o.advices.GlobalExceptionHandler - Erreur business : L'équipe avec le nom OGC Montpellier existe déjà
+2025-04-08 03:29:58.763 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-08 03:29:58.777 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-08 03:29:58.790 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-08 03:29:58.821 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-08 03:29:58.827 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-08 03:31:03.214 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-08 03:31:03.344 [main] INFO  c.m.ogcnice.OgcniceApplication - Starting OgcniceApplication v0.0.1-SNAPSHOT using Java 17.0.12 with PID 57051 (/Users/commit/Downloads/ogcnice/target/ogcnice-0.0.1-SNAPSHOT.jar started by commit in /Users/commit/Downloads/ogcnice)
+2025-04-08 03:31:03.346 [main] DEBUG c.m.ogcnice.OgcniceApplication - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-08 03:31:03.347 [main] INFO  c.m.ogcnice.OgcniceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-08 03:31:04.526 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-08 03:31:04.592 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 54 ms. Found 2 JPA repository interfaces.
+2025-04-08 03:31:05.198 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-04-08 03:31:05.211 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-04-08 03:31:05.214 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-08 03:31:05.214 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-08 03:31:05.260 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-08 03:31:05.261 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1792 ms
+2025-04-08 03:31:05.401 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-08 03:31:05.688 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-04-08 03:31:05.690 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-08 03:31:05.740 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-08 03:31:05.801 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-08 03:31:05.846 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-08 03:31:06.155 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-08 03:31:06.203 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-08 03:31:06.228 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-08 03:31:07.067 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-08 03:31:07.122 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-08 03:31:07.476 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-08 03:31:07.824 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-04-08 03:31:07.894 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-04-08 03:31:07.920 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-04-08 03:31:07.947 [main] INFO  c.m.ogcnice.OgcniceApplication - Started OgcniceApplication in 5.348 seconds (process running for 5.961)
+2025-04-08 03:31:19.869 [http-nio-8080-exec-6] INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=OGC Montpellier, acronym=OGCMT, budget=580000.0, players=[])
+2025-04-08 03:31:19.876 [http-nio-8080-exec-6] ERROR c.m.ogcnice.services.TeamServiceImpl - L'équipe avec le nom OGC Montpellier existe déjà
+2025-04-08 03:31:19.877 [http-nio-8080-exec-6] ERROR c.m.o.advices.GlobalExceptionHandler - Erreur business : L'équipe avec le nom OGC Montpellier existe déjà
+2025-04-08 03:31:22.926 [http-nio-8080-exec-2] INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=OGC Montpellier, acronym=OGCMT, budget=580000.0, players=[])
+2025-04-08 03:31:22.929 [http-nio-8080-exec-2] ERROR c.m.ogcnice.services.TeamServiceImpl - L'équipe avec le nom OGC Montpellier existe déjà
+2025-04-08 03:31:22.929 [http-nio-8080-exec-2] ERROR c.m.o.advices.GlobalExceptionHandler - Erreur business : L'équipe avec le nom OGC Montpellier existe déjà
+2025-04-08 03:31:37.527 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-08 03:31:37.527 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-08 03:31:37.528 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-08 03:31:37.579 [http-nio-8081-exec-1] INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de récupération des équipes avec pagination et tri : page 0 et taille 10
+2025-04-08 03:31:37.725 [http-nio-8081-exec-1] INFO  c.m.ogcnice.services.TeamServiceImpl - Nombre d'équipes récupérées : 3
+2025-04-08 03:32:08.002 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-08 03:32:08.012 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-08 03:32:08.015 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-08 03:32:08.020 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-08 03:32:08.022 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-08 03:32:27.461 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-08 03:32:27.709 [main] INFO  c.m.ogcnice.OgcniceApplication - Starting OgcniceApplication v0.0.1-SNAPSHOT using Java 17.0.12 with PID 58197 (/Users/commit/Downloads/ogcnice/target/ogcnice-0.0.1-SNAPSHOT.jar started by commit in /Users/commit/Downloads/ogcnice)
+2025-04-08 03:32:27.710 [main] DEBUG c.m.ogcnice.OgcniceApplication - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-08 03:32:27.711 [main] INFO  c.m.ogcnice.OgcniceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-08 03:32:28.607 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-08 03:32:28.660 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43 ms. Found 2 JPA repository interfaces.
+2025-04-08 03:32:29.134 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-04-08 03:32:29.147 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-04-08 03:32:29.150 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-08 03:32:29.150 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-08 03:32:29.193 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-08 03:32:29.194 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1396 ms
+2025-04-08 03:32:29.314 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-08 03:32:29.617 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-04-08 03:32:29.619 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-08 03:32:29.663 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-08 03:32:29.719 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-08 03:32:29.753 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-08 03:32:30.021 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-08 03:32:30.074 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-08 03:32:30.097 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-08 03:32:31.048 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-08 03:32:31.113 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-08 03:32:31.433 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-08 03:32:31.746 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-04-08 03:32:31.805 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-04-08 03:32:31.828 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-04-08 03:32:31.844 [main] INFO  c.m.ogcnice.OgcniceApplication - Started OgcniceApplication in 4.991 seconds (process running for 5.576)
+2025-04-08 03:33:10.939 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-08 03:33:10.939 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-08 03:33:10.941 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-04-08 03:33:10.990 [http-nio-8081-exec-1] INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de récupération des équipes avec pagination et tri : page 0 et taille 10
+2025-04-08 03:33:11.133 [http-nio-8081-exec-1] INFO  c.m.ogcnice.services.TeamServiceImpl - Nombre d'équipes récupérées : 3
+2025-04-08 03:33:39.253 [http-nio-8080-exec-5] INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=OGC Montpellier, acronym=OGCMT, budget=580000.0, players=[])
+2025-04-08 03:33:39.256 [http-nio-8080-exec-5] ERROR c.m.ogcnice.services.TeamServiceImpl - L'équipe avec le nom OGC Montpellier existe déjà
+2025-04-08 03:33:39.256 [http-nio-8080-exec-5] ERROR c.m.o.advices.GlobalExceptionHandler - Erreur business : L'équipe avec le nom OGC Montpellier existe déjà
+2025-04-08 03:33:52.379 [http-nio-8080-exec-4] INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=OGC Montpellier, acronym=OGCMT, budget=580000.0, players=[])
+2025-04-08 03:33:52.381 [http-nio-8080-exec-4] ERROR c.m.ogcnice.services.TeamServiceImpl - L'équipe avec le nom OGC Montpellier existe déjà
+2025-04-08 03:33:52.382 [http-nio-8080-exec-4] ERROR c.m.o.advices.GlobalExceptionHandler - Erreur business : L'équipe avec le nom OGC Montpellier existe déjà
+2025-04-08 03:34:04.804 [http-nio-8081-exec-2] INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de récupération des équipes avec pagination et tri : page 0 et taille 10
+2025-04-08 03:34:04.807 [http-nio-8081-exec-2] INFO  c.m.ogcnice.services.TeamServiceImpl - Nombre d'équipes récupérées : 3
+2025-04-08 03:34:14.205 [http-nio-8080-exec-8] INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=OGC Montpellier, acronym=OGCMT, budget=580000.0, players=[])
+2025-04-08 03:34:14.210 [http-nio-8080-exec-8] ERROR c.m.ogcnice.services.TeamServiceImpl - L'équipe avec le nom OGC Montpellier existe déjà
+2025-04-08 03:34:14.216 [http-nio-8080-exec-8] ERROR c.m.o.advices.GlobalExceptionHandler - Erreur business : L'équipe avec le nom OGC Montpellier existe déjà
+2025-04-08 03:36:33.286 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-08 03:36:33.313 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-08 03:36:33.317 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-08 03:36:33.321 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-08 03:36:33.323 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-08 03:36:54.737 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-08 03:36:54.782 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-08 03:36:54.824 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-08 03:36:54.925 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-08 03:36:54.932 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-08 03:37:10.257 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-08 03:37:10.386 [main] INFO  c.m.ogcnice.OgcniceApplication - Starting OgcniceApplication v0.0.1-SNAPSHOT using Java 17.0.12 with PID 62395 (/Users/commit/Downloads/ogcnice/target/ogcnice-0.0.1-SNAPSHOT.jar started by commit in /Users/commit/Downloads/ogcnice)
+2025-04-08 03:37:10.387 [main] DEBUG c.m.ogcnice.OgcniceApplication - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-08 03:37:10.388 [main] INFO  c.m.ogcnice.OgcniceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-08 03:37:11.312 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-08 03:37:11.385 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60 ms. Found 2 JPA repository interfaces.
+2025-04-08 03:37:11.948 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-04-08 03:37:11.962 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-04-08 03:37:11.964 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-08 03:37:11.965 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-08 03:37:12.017 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-08 03:37:12.018 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1553 ms
+2025-04-08 03:37:12.178 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-08 03:37:12.447 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-04-08 03:37:12.449 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-08 03:37:12.497 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-08 03:37:12.565 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-08 03:37:12.613 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-08 03:37:12.970 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-08 03:37:13.023 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-08 03:37:13.044 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-08 03:37:13.949 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-08 03:37:14.002 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-08 03:37:14.358 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-08 03:37:14.746 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-04-08 03:37:14.819 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-04-08 03:37:14.846 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-04-08 03:37:14.869 [main] INFO  c.m.ogcnice.OgcniceApplication - Started OgcniceApplication in 5.362 seconds (process running for 5.968)
+2025-04-08 03:37:42.065 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-08 03:37:42.066 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-08 03:37:42.067 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-08 03:37:42.115 [http-nio-8081-exec-1] INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de récupération des équipes avec pagination et tri : page 0 et taille 10
+2025-04-08 03:37:42.263 [http-nio-8081-exec-1] INFO  c.m.ogcnice.services.TeamServiceImpl - Nombre d'équipes récupérées : 3
+2025-04-08 03:38:10.806 [http-nio-8081-exec-2] INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=OGC Montpellier, acronym=OGCMT, budget=580000.0, players=[])
+2025-04-08 03:38:10.836 [http-nio-8081-exec-2] INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de création de l'équipe : OGC Montpellier
+2025-04-08 03:38:10.872 [http-nio-8081-exec-2] INFO  c.m.ogcnice.services.TeamServiceImpl - L'équipe 'OGC Montpellier' a été enregistrée avec succès.
+2025-04-08 03:38:37.415 [http-nio-8081-exec-4] INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=OGC Montpellier, acronym=OGCMT, budget=580000.0, players=[])
+2025-04-08 03:38:37.417 [http-nio-8081-exec-4] ERROR c.m.ogcnice.services.TeamServiceImpl - L'équipe avec le nom OGC Montpellier existe déjà
+2025-04-08 03:38:37.420 [http-nio-8081-exec-4] ERROR c.m.o.advices.GlobalExceptionHandler - Erreur business : L'équipe avec le nom OGC Montpellier existe déjà
+2025-04-08 03:39:39.577 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-08 03:39:39.587 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-08 03:39:39.590 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-08 03:39:39.595 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-08 03:39:39.599 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-08 11:11:16.698 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-08 11:11:16.790 [main] INFO  c.m.ogcnice.OgcniceApplication - Starting OgcniceApplication v0.0.1-SNAPSHOT using Java 17.0.12 with PID 37276 (/Users/commit/Downloads/ogcnice/target/ogcnice-0.0.1-SNAPSHOT.jar started by commit in /Users/commit/Downloads/ogcnice)
+2025-04-08 11:11:16.791 [main] DEBUG c.m.ogcnice.OgcniceApplication - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-08 11:11:16.792 [main] INFO  c.m.ogcnice.OgcniceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-08 11:11:17.698 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-08 11:11:17.786 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 78 ms. Found 2 JPA repository interfaces.
+2025-04-08 11:11:18.736 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-04-08 11:11:18.753 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-04-08 11:11:18.756 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-08 11:11:18.756 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-08 11:11:18.803 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-08 11:11:18.805 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1939 ms
+2025-04-08 11:11:18.990 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-08 11:11:19.281 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-04-08 11:11:19.282 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-08 11:11:19.324 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-08 11:11:19.379 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-08 11:11:19.419 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-08 11:11:19.692 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-08 11:11:19.739 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-08 11:11:19.759 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-08 11:11:20.637 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-08 11:11:20.693 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-08 11:11:21.024 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-08 11:11:21.367 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-04-08 11:11:21.431 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-04-08 11:11:21.764 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-04-08 11:11:21.782 [main] INFO  c.m.ogcnice.OgcniceApplication - Started OgcniceApplication in 5.708 seconds (process running for 6.358)
+2025-04-08 11:13:38.484 [http-nio-8081-exec-6] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-08 11:13:38.485 [http-nio-8081-exec-6] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-08 11:13:38.490 [http-nio-8081-exec-6] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2025-04-08 11:13:38.533 [http-nio-8081-exec-6] ERROR c.m.o.advices.GlobalExceptionHandler - Erreur inconnue : No static resource favicon.ico.
+2025-04-08 11:13:42.399 [http-nio-8081-exec-9] ERROR c.m.o.advices.GlobalExceptionHandler - Erreur inconnue : No static resource favicon.ico.
+2025-04-08 11:13:47.811 [http-nio-8081-exec-1] ERROR c.m.o.advices.GlobalExceptionHandler - Erreur inconnue : No static resource favicon.ico.
+2025-04-08 11:14:32.868 [http-nio-8081-exec-5] ERROR c.m.o.advices.GlobalExceptionHandler - Erreur inconnue : No static resource favicon.ico.
+2025-04-08 11:14:36.456 [http-nio-8081-exec-7] ERROR c.m.o.advices.GlobalExceptionHandler - Erreur inconnue : No static resource favicon.ico.
+2025-04-08 11:14:42.995 [http-nio-8081-exec-10] ERROR c.m.o.advices.GlobalExceptionHandler - Erreur inconnue : No static resource favicon.ico.
+2025-04-08 11:14:43.857 [http-nio-8081-exec-2] ERROR c.m.o.advices.GlobalExceptionHandler - Erreur inconnue : No static resource favicon.ico.
+2025-04-08 11:14:51.455 [http-nio-8081-exec-3] ERROR c.m.o.advices.GlobalExceptionHandler - Erreur inconnue : No static resource favicon.ico.
+2025-04-08 11:16:41.934 [http-nio-8081-exec-6] INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=OGC Montpellier, acronym=OGCMT, budget=580000.0, players=[])
+2025-04-08 11:16:42.069 [http-nio-8081-exec-6] INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de création de l'équipe : OGC Montpellier
+2025-04-08 11:16:42.131 [http-nio-8081-exec-6] INFO  c.m.ogcnice.services.TeamServiceImpl - L'équipe 'OGC Montpellier' a été enregistrée avec succès.
+2025-04-08 11:18:54.491 [http-nio-8081-exec-1] INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=OGC Montpellier, acronym=OGCMT, budget=580000.0, players=[])
+2025-04-08 11:18:54.523 [http-nio-8081-exec-1] ERROR c.m.ogcnice.services.TeamServiceImpl - L'équipe avec le nom OGC Montpellier existe déjà
+2025-04-08 11:18:54.537 [http-nio-8081-exec-1] ERROR c.m.o.advices.GlobalExceptionHandler - Erreur business : L'équipe avec le nom OGC Montpellier existe déjà
+2025-04-08 11:20:28.908 [http-nio-8081-exec-4] INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=Paris FC, acronym=PFC, budget=720000.0, players=[com.matawanservices.ogcnice.models.Player@610bad89, com.matawanservices.ogcnice.models.Player@2f3a58bb, com.matawanservices.ogcnice.models.Player@460e9f95, com.matawanservices.ogcnice.models.Player@10ffeb87])
+2025-04-08 11:20:28.956 [http-nio-8081-exec-4] INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de création de l'équipe : Paris FC
+2025-04-08 11:20:28.972 [http-nio-8081-exec-4] INFO  c.m.ogcnice.services.TeamServiceImpl - L'équipe 'Paris FC' a été enregistrée avec succès.
+2025-04-08 11:23:54.432 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-08 11:23:54.568 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-08 11:23:54.632 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-08 11:23:54.681 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-08 11:23:54.690 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-08 11:25:15.613 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-08 11:25:15.683 [main] INFO  c.m.ogcnice.OgcniceApplication - Starting OgcniceApplication v0.0.1-SNAPSHOT using Java 17.0.12 with PID 48836 (/Users/commit/Downloads/ogcnice/target/ogcnice-0.0.1-SNAPSHOT.jar started by commit in /Users/commit/Downloads/ogcnice)
+2025-04-08 11:25:15.684 [main] DEBUG c.m.ogcnice.OgcniceApplication - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-08 11:25:15.685 [main] INFO  c.m.ogcnice.OgcniceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-08 11:25:16.629 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-08 11:25:16.689 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50 ms. Found 2 JPA repository interfaces.
+2025-04-08 11:25:17.176 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-04-08 11:25:17.188 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-04-08 11:25:17.191 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-08 11:25:17.191 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-08 11:25:17.232 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-08 11:25:17.234 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1486 ms
+2025-04-08 11:25:17.363 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-08 11:25:17.623 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-04-08 11:25:17.625 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-08 11:25:17.667 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-08 11:25:17.721 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-08 11:25:17.754 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-08 11:25:18.042 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-08 11:25:18.089 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-08 11:25:18.110 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-08 11:25:18.965 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-08 11:25:19.017 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-08 11:25:19.372 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-08 11:25:19.685 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-04-08 11:25:19.745 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-04-08 11:25:19.806 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-04-08 11:25:19.826 [main] INFO  c.m.ogcnice.OgcniceApplication - Started OgcniceApplication in 4.878 seconds (process running for 5.456)
+2025-04-08 11:25:39.849 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-08 11:25:39.849 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-08 11:25:39.850 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-08 11:25:40.006 [http-nio-8081-exec-1] INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=Paris FC, acronym=PFC, budget=720000.0, players=[com.matawanservices.ogcnice.models.Player@17f37368, com.matawanservices.ogcnice.models.Player@3d6cc30a, com.matawanservices.ogcnice.models.Player@5e9a8ae2, com.matawanservices.ogcnice.models.Player@6754cff1])
+2025-04-08 11:25:40.112 [http-nio-8081-exec-1] INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de création de l'équipe : Paris FC
+2025-04-08 11:25:40.185 [http-nio-8081-exec-1] ERROR c.m.o.advices.GlobalExceptionHandler - Erreur inconnue : Validation failed for classes [com.matawanservices.ogcnice.models.Player] during persist time for groups [jakarta.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='must not be blank', propertyPath=name, rootBeanClass=class com.matawanservices.ogcnice.models.Player, messageTemplate='{jakarta.validation.constraints.NotBlank.message}'}
+	ConstraintViolationImpl{interpolatedMessage='must not be blank', propertyPath=position, rootBeanClass=class com.matawanservices.ogcnice.models.Player, messageTemplate='{jakarta.validation.constraints.NotBlank.message}'}
+]
+2025-04-08 11:30:27.705 [http-nio-8081-exec-2] INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=Paris FC, acronym=PFC, budget=720000.0, players=[com.matawanservices.ogcnice.models.Player@62f3dd31, com.matawanservices.ogcnice.models.Player@66cc55b7, com.matawanservices.ogcnice.models.Player@23ced70a])
+2025-04-08 11:30:27.739 [http-nio-8081-exec-2] INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de création de l'équipe : Paris FC
+2025-04-08 11:30:27.743 [http-nio-8081-exec-2] ERROR c.m.o.advices.GlobalExceptionHandler - Erreur inconnue : Validation failed for classes [com.matawanservices.ogcnice.models.Player] during persist time for groups [jakarta.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='must not be blank', propertyPath=name, rootBeanClass=class com.matawanservices.ogcnice.models.Player, messageTemplate='{jakarta.validation.constraints.NotBlank.message}'}
+	ConstraintViolationImpl{interpolatedMessage='must not be blank', propertyPath=position, rootBeanClass=class com.matawanservices.ogcnice.models.Player, messageTemplate='{jakarta.validation.constraints.NotBlank.message}'}
+]
+2025-04-08 11:31:20.029 [http-nio-8081-exec-3] INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=Paris FC, acronym=PFC, budget=720000.0, players=[com.matawanservices.ogcnice.models.Player@32572415, com.matawanservices.ogcnice.models.Player@3668a687])
+2025-04-08 11:31:20.062 [http-nio-8081-exec-3] INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de création de l'équipe : Paris FC
+2025-04-08 11:31:20.088 [http-nio-8081-exec-3] INFO  c.m.ogcnice.services.TeamServiceImpl - L'équipe 'Paris FC' a été enregistrée avec succès.
+2025-04-08 11:31:30.107 [http-nio-8081-exec-1] ERROR c.m.o.advices.GlobalExceptionHandler - Erreur inconnue : No static resource favicon.ico.
+2025-04-08 11:31:34.722 [http-nio-8081-exec-3] ERROR c.m.o.advices.GlobalExceptionHandler - Erreur inconnue : No static resource favicon.ico.
+2025-04-08 11:31:39.837 [http-nio-8081-exec-8] ERROR c.m.o.advices.GlobalExceptionHandler - Erreur inconnue : No static resource favicon.ico.
+2025-04-08 11:36:39.247 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-08 11:36:39.272 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-08 11:36:39.302 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-08 11:36:39.342 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-08 11:36:39.350 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-08 11:37:54.365 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-08 11:37:54.460 [main] INFO  c.m.ogcnice.OgcniceApplication - Starting OgcniceApplication v0.0.1-SNAPSHOT using Java 17.0.12 with PID 59235 (/Users/commit/Downloads/ogcnice/target/ogcnice-0.0.1-SNAPSHOT.jar started by commit in /Users/commit/Downloads/ogcnice)
+2025-04-08 11:37:54.461 [main] DEBUG c.m.ogcnice.OgcniceApplication - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-08 11:37:54.462 [main] INFO  c.m.ogcnice.OgcniceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-08 11:37:55.354 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-08 11:37:55.413 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49 ms. Found 2 JPA repository interfaces.
+2025-04-08 11:37:56.004 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-04-08 11:37:56.017 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-04-08 11:37:56.020 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-08 11:37:56.020 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-08 11:37:56.074 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-08 11:37:56.076 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1525 ms
+2025-04-08 11:37:56.229 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-08 11:37:56.559 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-04-08 11:37:56.561 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-08 11:37:56.619 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-08 11:37:56.709 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-08 11:37:56.790 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-08 11:37:57.121 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-08 11:37:57.174 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-08 11:37:57.197 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-08 11:37:58.128 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-08 11:37:58.188 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-08 11:37:58.524 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-08 11:37:58.914 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-04-08 11:37:59.020 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-04-08 11:37:59.078 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-04-08 11:37:59.104 [main] INFO  c.m.ogcnice.OgcniceApplication - Started OgcniceApplication in 5.41 seconds (process running for 6.127)
+2025-04-08 11:38:26.299 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-08 11:38:26.299 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-08 11:38:26.301 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-04-08 11:38:26.484 [http-nio-8081-exec-1] INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=Paris FC, acronym=PFC, budget=720000.0, players=[com.matawanservices.ogcnice.models.Player@e5fa92e, com.matawanservices.ogcnice.models.Player@2bb8ef5d])
+2025-04-08 11:38:26.607 [http-nio-8081-exec-1] INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de création de l'équipe : Paris FC
+2025-04-08 11:38:26.680 [http-nio-8081-exec-1] INFO  c.m.ogcnice.services.TeamServiceImpl - L'équipe 'Paris FC' a été enregistrée avec succès.
+2025-04-08 11:38:30.727 [http-nio-8081-exec-8] ERROR c.m.o.advices.GlobalExceptionHandler - Erreur inconnue : No static resource favicon.ico.
+2025-04-08 11:38:36.821 [http-nio-8081-exec-5] ERROR c.m.o.advices.GlobalExceptionHandler - Erreur inconnue : No static resource favicon.ico.
+2025-04-08 11:38:55.726 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-08 11:38:55.736 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-08 11:38:55.740 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-08 11:38:55.744 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-08 11:38:55.745 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-08 11:38:58.789 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-08 11:38:58.860 [main] INFO  c.m.ogcnice.OgcniceApplication - Starting OgcniceApplication v0.0.1-SNAPSHOT using Java 17.0.12 with PID 60198 (/Users/commit/Downloads/ogcnice/target/ogcnice-0.0.1-SNAPSHOT.jar started by commit in /Users/commit/Downloads/ogcnice)
+2025-04-08 11:38:58.861 [main] DEBUG c.m.ogcnice.OgcniceApplication - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-08 11:38:58.864 [main] INFO  c.m.ogcnice.OgcniceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-08 11:38:59.843 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-08 11:38:59.908 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 54 ms. Found 2 JPA repository interfaces.
+2025-04-08 11:39:00.505 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-04-08 11:39:00.519 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-04-08 11:39:00.522 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-08 11:39:00.522 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-08 11:39:00.564 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-08 11:39:00.565 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1643 ms
+2025-04-08 11:39:00.708 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-08 11:39:00.997 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-04-08 11:39:00.999 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-08 11:39:01.048 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-08 11:39:01.114 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-08 11:39:01.157 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-08 11:39:01.535 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-08 11:39:01.588 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-08 11:39:01.611 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-08 11:39:02.506 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-08 11:39:02.562 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-08 11:39:02.878 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-08 11:39:03.196 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-04-08 11:39:03.256 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-04-08 11:39:03.278 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-04-08 11:39:03.295 [main] INFO  c.m.ogcnice.OgcniceApplication - Started OgcniceApplication in 5.095 seconds (process running for 5.674)
+2025-04-08 11:39:38.652 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-08 11:39:38.652 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-08 11:39:38.654 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-08 11:39:38.830 [http-nio-8081-exec-1] INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=Paris FC, acronym=PFC, budget=720000.0, players=[com.matawanservices.ogcnice.models.Player@18b3df44, com.matawanservices.ogcnice.models.Player@6f8147ab])
+2025-04-08 11:39:38.945 [http-nio-8081-exec-1] INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de création de l'équipe : Paris FC
+2025-04-08 11:39:39.004 [http-nio-8081-exec-1] INFO  c.m.ogcnice.services.TeamServiceImpl - L'équipe 'Paris FC' a été enregistrée avec succès.
+2025-04-08 11:39:54.280 [http-nio-8081-exec-10] ERROR c.m.o.advices.GlobalExceptionHandler - Erreur inconnue : No static resource favicon.ico.
+2025-04-08 11:39:59.419 [http-nio-8081-exec-10] ERROR c.m.o.advices.GlobalExceptionHandler - Erreur inconnue : No static resource favicon.ico.
+2025-04-08 11:41:28.694 [http-nio-8081-exec-10] INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de récupération des équipes avec pagination et tri : page 0 et taille 10
+2025-04-08 11:41:28.736 [http-nio-8081-exec-10] INFO  c.m.ogcnice.services.TeamServiceImpl - Nombre d'équipes récupérées : 4
+2025-04-08 11:41:56.083 [http-nio-8081-exec-7] INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de récupération des équipes avec pagination et tri : page 0 et taille 1
+2025-04-08 11:41:56.089 [http-nio-8081-exec-7] INFO  c.m.ogcnice.services.TeamServiceImpl - Nombre d'équipes récupérées : 4
+2025-04-08 12:01:50.115 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-08 12:01:50.262 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-08 12:01:50.330 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-08 12:01:50.418 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-08 12:01:50.429 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
