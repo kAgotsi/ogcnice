@@ -57,7 +57,7 @@ Ce projet adopte une **architecture en couches (MVC)**, avec une séparation cla
 
 ```bash
 # Cloner le projet
-git clone https://github.com/<votre-repo>.git
+git clone https://github.com/kAgotsi/ogcnice.git
 cd ogcnice
 
 # Lancer les tests
