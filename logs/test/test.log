@@ -1,0 +1,173 @@
+02:40:58.328 INFO  c.m.o.TeamControllerIntegrationTest - Starting TeamControllerIntegrationTest using Java 17.0.12 with PID 15126 (started by commit in /Users/commit/Downloads/ogcnice)
+02:40:58.330 DEBUG c.m.o.TeamControllerIntegrationTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+02:40:58.331 INFO  c.m.o.TeamControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+02:41:01.761 INFO  c.m.o.TeamControllerIntegrationTest - Started TeamControllerIntegrationTest in 3.669 seconds (process running for 5.459)
+02:41:02.511 INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=Nice FC, acronym=NFC, budget=1000000.0, players=[com.matawanservices.ogcnice.models.Player@5b5f48d5, com.matawanservices.ogcnice.models.Player@421c4c3e])
+02:41:02.535 INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de création de l'équipe : Nice FC
+02:41:02.556 INFO  c.m.ogcnice.services.TeamServiceImpl - L'équipe 'Nice FC' a été enregistrée avec succès.
+02:41:02.630 INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=Nice FC, acronym=NFC, budget=1000000.0, players=[])
+02:41:02.631 INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de création de l'équipe : Nice FC
+02:41:02.633 INFO  c.m.ogcnice.services.TeamServiceImpl - L'équipe 'Nice FC' a été enregistrée avec succès.
+02:47:01.920 INFO  c.m.ogcnice.PlayersJsonTests - Starting PlayersJsonTests using Java 17.0.12 with PID 20054 (started by commit in /Users/commit/Downloads/ogcnice)
+02:47:01.943 DEBUG c.m.ogcnice.PlayersJsonTests - Running with Spring Boot v3.4.4, Spring v6.2.5
+02:47:01.944 INFO  c.m.ogcnice.PlayersJsonTests - No active profile set, falling back to 1 default profile: "default"
+02:47:03.017 INFO  c.m.ogcnice.PlayersJsonTests - Started PlayersJsonTests in 1.584 seconds (process running for 4.325)
+02:47:12.931 INFO  c.m.ogcnice.TeamJsonTests - Starting TeamJsonTests using Java 17.0.12 with PID 20295 (started by commit in /Users/commit/Downloads/ogcnice)
+02:47:12.934 DEBUG c.m.ogcnice.TeamJsonTests - Running with Spring Boot v3.4.4, Spring v6.2.5
+02:47:12.935 INFO  c.m.ogcnice.TeamJsonTests - No active profile set, falling back to 1 default profile: "default"
+02:47:13.413 INFO  c.m.ogcnice.TeamJsonTests - Started TeamJsonTests in 0.883 seconds (process running for 2.543)
+02:47:21.756 INFO  c.m.o.TeamControllerIntegrationTest - Starting TeamControllerIntegrationTest using Java 17.0.12 with PID 20448 (started by commit in /Users/commit/Downloads/ogcnice)
+02:47:21.759 DEBUG c.m.o.TeamControllerIntegrationTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+02:47:21.759 INFO  c.m.o.TeamControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+02:47:58.236 INFO  c.m.ogcnice.TeamJsonTests - Starting TeamJsonTests using Java 17.0.12 with PID 20872 (started by commit in /Users/commit/Downloads/ogcnice)
+02:47:58.239 DEBUG c.m.ogcnice.TeamJsonTests - Running with Spring Boot v3.4.4, Spring v6.2.5
+02:47:58.240 INFO  c.m.ogcnice.TeamJsonTests - No active profile set, falling back to 1 default profile: "default"
+02:47:58.624 INFO  c.m.ogcnice.TeamJsonTests - Started TeamJsonTests in 0.7 seconds (process running for 2.081)
+02:48:05.887 INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=Nice Fc, acronym=NFC, budget=1000000.0, players=[])
+02:48:05.899 INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de création de l'équipe : Nice Fc
+02:48:05.900 INFO  c.m.ogcnice.services.TeamServiceImpl - L'équipe 'Nice Fc' a été enregistrée avec succès.
+02:48:05.917 INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=Nice Fc, acronym=NFC, budget=1000000.0, players=[])
+02:48:05.917 ERROR c.m.ogcnice.services.TeamServiceImpl - L'équipe avec le nom Nice Fc existe déjà
+02:48:21.337 INFO  c.m.o.TeamControllerIntegrationTest - Starting TeamControllerIntegrationTest using Java 17.0.12 with PID 21182 (started by commit in /Users/commit/Downloads/ogcnice)
+02:48:21.340 DEBUG c.m.o.TeamControllerIntegrationTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+02:48:21.341 INFO  c.m.o.TeamControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+02:48:25.057 INFO  c.m.o.TeamControllerIntegrationTest - Started TeamControllerIntegrationTest in 3.991 seconds (process running for 5.697)
+02:48:26.062 INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=Nice FC, acronym=NFC, budget=1000000.0, players=[com.matawanservices.ogcnice.models.Player@64f34c91, com.matawanservices.ogcnice.models.Player@158f0af4])
+02:48:26.118 INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de création de l'équipe : Nice FC
+02:48:26.156 INFO  c.m.ogcnice.services.TeamServiceImpl - L'équipe 'Nice FC' a été enregistrée avec succès.
+02:48:26.260 INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=Nice FC, acronym=NFC, budget=1000000.0, players=[])
+02:48:26.262 INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de création de l'équipe : Nice FC
+02:48:26.263 INFO  c.m.ogcnice.services.TeamServiceImpl - L'équipe 'Nice FC' a été enregistrée avec succès.
+03:30:48.191 INFO  c.m.ogcnice.PlayersJsonTests - Starting PlayersJsonTests using Java 17.0.12 with PID 56776 (started by commit in /Users/commit/Downloads/ogcnice)
+03:30:48.193 DEBUG c.m.ogcnice.PlayersJsonTests - Running with Spring Boot v3.4.4, Spring v6.2.5
+03:30:48.194 INFO  c.m.ogcnice.PlayersJsonTests - No active profile set, falling back to 1 default profile: "default"
+03:30:48.923 INFO  c.m.ogcnice.PlayersJsonTests - Started PlayersJsonTests in 1.223 seconds (process running for 3.052)
+03:30:50.164 INFO  c.m.o.TeamControllerIntegrationTest - Starting TeamControllerIntegrationTest using Java 17.0.12 with PID 56776 (started by commit in /Users/commit/Downloads/ogcnice)
+03:30:50.164 DEBUG c.m.o.TeamControllerIntegrationTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+03:30:50.164 INFO  c.m.o.TeamControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+03:30:54.487 INFO  c.m.o.TeamControllerIntegrationTest - Started TeamControllerIntegrationTest in 4.356 seconds (process running for 8.617)
+03:30:54.948 INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=Nice FC, acronym=NFC, budget=1000000.0, players=[com.matawanservices.ogcnice.models.Player@14738629, com.matawanservices.ogcnice.models.Player@eb1d7c8])
+03:30:55.054 INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de création de l'équipe : Nice FC
+03:30:55.102 INFO  c.m.ogcnice.services.TeamServiceImpl - L'équipe 'Nice FC' a été enregistrée avec succès.
+03:30:55.243 INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=Nice FC, acronym=NFC, budget=1000000.0, players=[])
+03:30:55.245 INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de création de l'équipe : Nice FC
+03:30:55.246 INFO  c.m.ogcnice.services.TeamServiceImpl - L'équipe 'Nice FC' a été enregistrée avec succès.
+03:30:55.448 INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=Nice Fc, acronym=NFC, budget=1000000.0, players=[])
+03:30:55.450 INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de création de l'équipe : Nice Fc
+03:30:55.451 INFO  c.m.ogcnice.services.TeamServiceImpl - L'équipe 'Nice Fc' a été enregistrée avec succès.
+03:30:55.463 INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=Nice Fc, acronym=NFC, budget=1000000.0, players=[])
+03:30:55.463 ERROR c.m.ogcnice.services.TeamServiceImpl - L'équipe avec le nom Nice Fc existe déjà
+03:36:59.469 INFO  c.m.ogcnice.PlayersJsonTests - Starting PlayersJsonTests using Java 17.0.12 with PID 62253 (started by commit in /Users/commit/Downloads/ogcnice)
+03:36:59.472 DEBUG c.m.ogcnice.PlayersJsonTests - Running with Spring Boot v3.4.4, Spring v6.2.5
+03:36:59.473 INFO  c.m.ogcnice.PlayersJsonTests - No active profile set, falling back to 1 default profile: "default"
+03:36:59.899 INFO  c.m.ogcnice.PlayersJsonTests - Started PlayersJsonTests in 0.717 seconds (process running for 1.948)
+03:37:01.108 INFO  c.m.o.TeamControllerIntegrationTest - Starting TeamControllerIntegrationTest using Java 17.0.12 with PID 62253 (started by commit in /Users/commit/Downloads/ogcnice)
+03:37:01.109 DEBUG c.m.o.TeamControllerIntegrationTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+03:37:01.109 INFO  c.m.o.TeamControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+03:37:03.900 INFO  c.m.o.TeamControllerIntegrationTest - Started TeamControllerIntegrationTest in 2.827 seconds (process running for 5.949)
+03:37:04.204 INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=Nice FC, acronym=NFC, budget=1000000.0, players=[com.matawanservices.ogcnice.models.Player@6aefb242, com.matawanservices.ogcnice.models.Player@1455d0f5])
+03:37:04.224 INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de création de l'équipe : Nice FC
+03:37:04.244 INFO  c.m.ogcnice.services.TeamServiceImpl - L'équipe 'Nice FC' a été enregistrée avec succès.
+03:37:04.350 INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=Nice FC, acronym=NFC, budget=1000000.0, players=[])
+03:37:04.352 INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de création de l'équipe : Nice FC
+03:37:04.353 INFO  c.m.ogcnice.services.TeamServiceImpl - L'équipe 'Nice FC' a été enregistrée avec succès.
+03:37:04.602 INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=Nice Fc, acronym=NFC, budget=1000000.0, players=[])
+03:37:04.605 INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de création de l'équipe : Nice Fc
+03:37:04.605 INFO  c.m.ogcnice.services.TeamServiceImpl - L'équipe 'Nice Fc' a été enregistrée avec succès.
+03:37:04.616 INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=Nice Fc, acronym=NFC, budget=1000000.0, players=[])
+03:37:04.617 ERROR c.m.ogcnice.services.TeamServiceImpl - L'équipe avec le nom Nice Fc existe déjà
+03:39:53.868 INFO  c.m.ogcnice.PlayersJsonTests - Starting PlayersJsonTests using Java 17.0.12 with PID 64750 (started by commit in /Users/commit/Downloads/ogcnice)
+03:39:53.876 DEBUG c.m.ogcnice.PlayersJsonTests - Running with Spring Boot v3.4.4, Spring v6.2.5
+03:39:53.877 INFO  c.m.ogcnice.PlayersJsonTests - No active profile set, falling back to 1 default profile: "default"
+03:39:54.677 INFO  c.m.ogcnice.PlayersJsonTests - Started PlayersJsonTests in 1.465 seconds (process running for 4.303)
+03:39:56.029 INFO  c.m.o.TeamControllerIntegrationTest - Starting TeamControllerIntegrationTest using Java 17.0.12 with PID 64750 (started by commit in /Users/commit/Downloads/ogcnice)
+03:39:56.029 DEBUG c.m.o.TeamControllerIntegrationTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+03:39:56.029 INFO  c.m.o.TeamControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+03:40:01.725 INFO  c.m.o.TeamControllerIntegrationTest - Started TeamControllerIntegrationTest in 5.728 seconds (process running for 11.351)
+03:40:02.241 INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=Nice FC, acronym=NFC, budget=1000000.0, players=[com.matawanservices.ogcnice.models.Player@557fe039, com.matawanservices.ogcnice.models.Player@231d5119])
+03:40:02.304 INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de création de l'équipe : Nice FC
+03:40:02.343 INFO  c.m.ogcnice.services.TeamServiceImpl - L'équipe 'Nice FC' a été enregistrée avec succès.
+03:40:02.449 INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=Nice FC, acronym=NFC, budget=1000000.0, players=[])
+03:40:02.451 INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de création de l'équipe : Nice FC
+03:40:02.452 INFO  c.m.ogcnice.services.TeamServiceImpl - L'équipe 'Nice FC' a été enregistrée avec succès.
+03:40:02.674 INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=Nice Fc, acronym=NFC, budget=1000000.0, players=[])
+03:40:02.676 INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de création de l'équipe : Nice Fc
+03:40:02.677 INFO  c.m.ogcnice.services.TeamServiceImpl - L'équipe 'Nice Fc' a été enregistrée avec succès.
+03:40:02.703 INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=Nice Fc, acronym=NFC, budget=1000000.0, players=[])
+03:40:02.703 ERROR c.m.ogcnice.services.TeamServiceImpl - L'équipe avec le nom Nice Fc existe déjà
+11:08:55.489 INFO  c.m.ogcnice.PlayersJsonTests - Starting PlayersJsonTests using Java 17.0.12 with PID 35178 (started by commit in /Users/commit/Downloads/ogcnice)
+11:08:55.513 DEBUG c.m.ogcnice.PlayersJsonTests - Running with Spring Boot v3.4.4, Spring v6.2.5
+11:08:55.514 INFO  c.m.ogcnice.PlayersJsonTests - No active profile set, falling back to 1 default profile: "default"
+11:08:57.679 INFO  c.m.ogcnice.PlayersJsonTests - Started PlayersJsonTests in 3.727 seconds (process running for 7.738)
+11:09:00.507 INFO  c.m.o.TeamControllerIntegrationTest - Starting TeamControllerIntegrationTest using Java 17.0.12 with PID 35178 (started by commit in /Users/commit/Downloads/ogcnice)
+11:09:00.507 DEBUG c.m.o.TeamControllerIntegrationTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+11:09:00.507 INFO  c.m.o.TeamControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+11:09:11.024 INFO  c.m.o.TeamControllerIntegrationTest - Started TeamControllerIntegrationTest in 10.686 seconds (process running for 21.083)
+11:09:12.039 INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=Nice FC, acronym=NFC, budget=1000000.0, players=[com.matawanservices.ogcnice.models.Player@4164ab12, com.matawanservices.ogcnice.models.Player@37bafef8])
+11:09:12.115 INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de création de l'équipe : Nice FC
+11:09:12.194 INFO  c.m.ogcnice.services.TeamServiceImpl - L'équipe 'Nice FC' a été enregistrée avec succès.
+11:09:12.357 INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=Nice FC, acronym=NFC, budget=1000000.0, players=[])
+11:09:12.358 INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de création de l'équipe : Nice FC
+11:09:12.360 INFO  c.m.ogcnice.services.TeamServiceImpl - L'équipe 'Nice FC' a été enregistrée avec succès.
+11:09:12.739 INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=Nice Fc, acronym=NFC, budget=1000000.0, players=[])
+11:09:12.742 INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de création de l'équipe : Nice Fc
+11:09:12.742 INFO  c.m.ogcnice.services.TeamServiceImpl - L'équipe 'Nice Fc' a été enregistrée avec succès.
+11:09:12.788 INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=Nice Fc, acronym=NFC, budget=1000000.0, players=[])
+11:09:12.789 ERROR c.m.ogcnice.services.TeamServiceImpl - L'équipe avec le nom Nice Fc existe déjà
+11:10:49.264 INFO  c.m.ogcnice.PlayersJsonTests - Starting PlayersJsonTests using Java 17.0.12 with PID 36849 (started by commit in /Users/commit/Downloads/ogcnice)
+11:10:49.267 DEBUG c.m.ogcnice.PlayersJsonTests - Running with Spring Boot v3.4.4, Spring v6.2.5
+11:10:49.271 INFO  c.m.ogcnice.PlayersJsonTests - No active profile set, falling back to 1 default profile: "default"
+11:10:49.889 INFO  c.m.ogcnice.PlayersJsonTests - Started PlayersJsonTests in 1.074 seconds (process running for 3.231)
+11:10:51.873 INFO  c.m.o.TeamControllerIntegrationTest - Starting TeamControllerIntegrationTest using Java 17.0.12 with PID 36849 (started by commit in /Users/commit/Downloads/ogcnice)
+11:10:51.873 DEBUG c.m.o.TeamControllerIntegrationTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+11:10:51.873 INFO  c.m.o.TeamControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+11:10:55.057 INFO  c.m.o.TeamControllerIntegrationTest - Started TeamControllerIntegrationTest in 3.22 seconds (process running for 8.399)
+11:10:55.463 INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=Nice FC, acronym=NFC, budget=1000000.0, players=[com.matawanservices.ogcnice.models.Player@2080ee70, com.matawanservices.ogcnice.models.Player@1bce19db])
+11:10:55.485 INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de création de l'équipe : Nice FC
+11:10:55.507 INFO  c.m.ogcnice.services.TeamServiceImpl - L'équipe 'Nice FC' a été enregistrée avec succès.
+11:10:55.585 INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=Nice FC, acronym=NFC, budget=1000000.0, players=[])
+11:10:55.586 INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de création de l'équipe : Nice FC
+11:10:55.588 INFO  c.m.ogcnice.services.TeamServiceImpl - L'équipe 'Nice FC' a été enregistrée avec succès.
+11:10:55.843 INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=Nice Fc, acronym=NFC, budget=1000000.0, players=[])
+11:10:55.846 INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de création de l'équipe : Nice Fc
+11:10:55.846 INFO  c.m.ogcnice.services.TeamServiceImpl - L'équipe 'Nice Fc' a été enregistrée avec succès.
+11:10:55.856 INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=Nice Fc, acronym=NFC, budget=1000000.0, players=[])
+11:10:55.857 ERROR c.m.ogcnice.services.TeamServiceImpl - L'équipe avec le nom Nice Fc existe déjà
+11:24:10.517 INFO  c.m.ogcnice.PlayersJsonTests - Starting PlayersJsonTests using Java 17.0.12 with PID 47877 (started by commit in /Users/commit/Downloads/ogcnice)
+11:24:10.542 DEBUG c.m.ogcnice.PlayersJsonTests - Running with Spring Boot v3.4.4, Spring v6.2.5
+11:24:10.543 INFO  c.m.ogcnice.PlayersJsonTests - No active profile set, falling back to 1 default profile: "default"
+11:24:11.351 INFO  c.m.ogcnice.PlayersJsonTests - Started PlayersJsonTests in 1.51 seconds (process running for 3.222)
+11:24:12.785 INFO  c.m.o.TeamControllerIntegrationTest - Starting TeamControllerIntegrationTest using Java 17.0.12 with PID 47877 (started by commit in /Users/commit/Downloads/ogcnice)
+11:24:12.785 DEBUG c.m.o.TeamControllerIntegrationTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+11:24:12.786 INFO  c.m.o.TeamControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+11:24:19.357 INFO  c.m.o.TeamControllerIntegrationTest - Started TeamControllerIntegrationTest in 6.607 seconds (process running for 11.228)
+11:24:19.850 INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=Nice FC, acronym=NFC, budget=1000000.0, players=[com.matawanservices.ogcnice.models.Player@27a717a7, com.matawanservices.ogcnice.models.Player@1d2b49b2])
+11:24:19.946 INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de création de l'équipe : Nice FC
+11:24:19.985 INFO  c.m.ogcnice.services.TeamServiceImpl - L'équipe 'Nice FC' a été enregistrée avec succès.
+11:24:20.068 INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=Nice FC, acronym=NFC, budget=1000000.0, players=[])
+11:24:20.070 INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de création de l'équipe : Nice FC
+11:24:20.072 INFO  c.m.ogcnice.services.TeamServiceImpl - L'équipe 'Nice FC' a été enregistrée avec succès.
+11:24:20.305 INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=Nice Fc, acronym=NFC, budget=1000000.0, players=[])
+11:24:20.309 INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de création de l'équipe : Nice Fc
+11:24:20.309 INFO  c.m.ogcnice.services.TeamServiceImpl - L'équipe 'Nice Fc' a été enregistrée avec succès.
+11:24:20.335 INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=Nice Fc, acronym=NFC, budget=1000000.0, players=[])
+11:24:20.336 ERROR c.m.ogcnice.services.TeamServiceImpl - L'équipe avec le nom Nice Fc existe déjà
+11:37:03.070 INFO  c.m.ogcnice.PlayersJsonTests - Starting PlayersJsonTests using Java 17.0.12 with PID 58531 (started by commit in /Users/commit/Downloads/ogcnice)
+11:37:03.073 DEBUG c.m.ogcnice.PlayersJsonTests - Running with Spring Boot v3.4.4, Spring v6.2.5
+11:37:03.073 INFO  c.m.ogcnice.PlayersJsonTests - No active profile set, falling back to 1 default profile: "default"
+11:37:03.763 INFO  c.m.ogcnice.PlayersJsonTests - Started PlayersJsonTests in 1.279 seconds (process running for 3.426)
+11:37:05.324 INFO  c.m.o.TeamControllerIntegrationTest - Starting TeamControllerIntegrationTest using Java 17.0.12 with PID 58531 (started by commit in /Users/commit/Downloads/ogcnice)
+11:37:05.324 DEBUG c.m.o.TeamControllerIntegrationTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+11:37:05.324 INFO  c.m.o.TeamControllerIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+11:37:12.563 INFO  c.m.o.TeamControllerIntegrationTest - Started TeamControllerIntegrationTest in 7.274 seconds (process running for 12.227)
+11:37:13.260 INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=Nice FC, acronym=NFC, budget=1000000.0, players=[com.matawanservices.ogcnice.models.Player@231d5119, com.matawanservices.ogcnice.models.Player@79cfc008])
+11:37:13.355 INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de création de l'équipe : Nice FC
+11:37:13.393 INFO  c.m.ogcnice.services.TeamServiceImpl - L'équipe 'Nice FC' a été enregistrée avec succès.
+11:37:13.500 INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=Nice FC, acronym=NFC, budget=1000000.0, players=[])
+11:37:13.501 INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de création de l'équipe : Nice FC
+11:37:13.503 INFO  c.m.ogcnice.services.TeamServiceImpl - L'équipe 'Nice FC' a été enregistrée avec succès.
+11:37:13.738 INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=Nice Fc, acronym=NFC, budget=1000000.0, players=[])
+11:37:13.741 INFO  c.m.ogcnice.services.TeamServiceImpl - Tentative de création de l'équipe : Nice Fc
+11:37:13.741 INFO  c.m.ogcnice.services.TeamServiceImpl - L'équipe 'Nice Fc' a été enregistrée avec succès.
+11:37:13.754 INFO  c.m.ogcnice.services.TeamServiceImpl - Enregistrement de l'équipe : Team(id=null, name=Nice Fc, acronym=NFC, budget=1000000.0, players=[])
+11:37:13.755 ERROR c.m.ogcnice.services.TeamServiceImpl - L'équipe avec le nom Nice Fc existe déjà
