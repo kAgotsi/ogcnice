@@ -26,7 +26,6 @@ Ce projet adopte une **architecture en couches (MVC)**, avec une séparation cla
 - **Tests unitaires** avec JUnit / Mockito
 - **Tests d’intégration** avec `@SpringBootTest`
 - **Pagination & tri**
-- **Documentation Swagger**
 
 ---
 
@@ -181,3 +180,8 @@ curl -X GET "http://localhost:8081/api/teams?page=0&size=10"
 Demo
 
 ![consulter la liste des joueurs avec une pagination](./demogifs/pagination.gif)
+
+
+
+### Amelioration
+Je peux rajouter un swagger pour la documentation de l'API 
